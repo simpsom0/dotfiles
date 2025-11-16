@@ -1,2 +1,2 @@
-tmux/.tmux/plugins
-fish/.config/fish/fish_variables
+tmux/dot-tmux/plugins
+fish/dot-config/fish/fish_variables
