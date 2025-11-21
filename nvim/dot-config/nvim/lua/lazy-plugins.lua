@@ -3,6 +3,7 @@ require('lazy').setup({
   --  NOTE: Use `opts = {}` to automatically pass options to a plugin's `setup()` function, forcing the plugin to be loaded.
 
   { import = 'user.plugins' },
+  { import = 'user.plugins.markdown' },
 }, {
   ui = {
     -- If you are using a Nerd Font: set icons to an empty table which will use the
