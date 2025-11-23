@@ -89,6 +89,6 @@ vim.o.foldmethod = 'expr'
 vim.o.foldexpr = 'nvim_treesitter#foldexpr()'
 vim.o.foldenable = false
 
--- looking to add a column on the 80th char column
+vim.o.colorcolumn = '80'
 
 -- vim: ts=2 sts=2 sw=2 et
