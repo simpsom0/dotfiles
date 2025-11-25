@@ -12,7 +12,8 @@ function cd
 end
 
 alias blank="clear; cat >/dev/null"
-alias ls="ls -aF --color"
+# alias ls="ls -aF --color"
+alias ls="eza --icons always -a -F"
 alias sesh-start="sesh connect (sesh list -i | gum filter --limit 1 --placeholder 'quickstart' --prompt='⚡')"
 # alias ssh="TERM=xterm-256color ssh"
 
